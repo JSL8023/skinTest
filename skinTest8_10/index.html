@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="lisp/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<a class="iconfont" href="index.html">&#xe600;</a>
+			<span class="header_title">
+				三维24类肤质精测 
+			</span>
+		</div>
+
+		<div class="content">
+			<div class="homePage hide">
+				<div class="top">
+					<img src="img/nurse.png" class="content_logo" />
+				</div>
+				<h3>三维24类肤质分型精测</h3>
+				<h4>专业级的前沿方法</h4>
+				<div class="textBox">
+					<p style="font-weight:bold;">
+						<span class="color-light-red">“</span>试试看吧，很准的~仔细检查你是什么肤质，给你以后的保养工作提供参考~！<span class="color-light-red">”</span>
+					</p>
+					<p>人类的肤质至少应有4×3×2=24种类型，按三个维度（油/干指数、敏感指数、色素指数）来分型，才好有的放矢。</p>
+				</div>
+				<div class="footer">
+					<button value="${memberId}" type="button" id="bagin">开始精测吧！</button>
+				</div>
+			</div>
+
+			<div class="testBagin hide">
+				<div class="testBox">
+					<!--第一大题  9道-->
+					<div class="t1 ti ">
+						<div class="ti_title">
+							1.1、对于你目前生活的地方，你觉得这里总体的气候怎么样？
+						</div>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>嗯，还不错</span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有点干了
+								</span>
+							</dd>
+						</dl>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									干燥得让人受不了
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有点潮湿
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									很潮湿
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t2 hide ti">
+						<div class="ti_title">
+							1.2、在天气比较热的时候，你洗完脸不用任何护肤品，1小时后照一下镜子，你的前额和脸颊是怎样的？
+						</div>
+						<dl scores="0">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>易脱皮，或者肤色苍白、晦暗 </span>
+							</dd>
+						</dl>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有紧绷感
+								</span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									皮肤润泽，在镜中看不到脸上有反光
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									在镜中能看到脸上有反光
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t3 hide ti">
+						<div class="ti_title">
+							1.3、在冬天，洗完脸不用任何护肤品，1小时后照一下镜子，你的前额和脸颊的感觉如何？
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>易脱皮，或者肤色苍白、晦暗</span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有紧绷感
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									皮肤润泽，在镜中看不到脸上有反光
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									在镜中能看到脸上有反光
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t4 hide ti">
+						<div class="ti_title">
+							1.4、在干燥环境（如冬季、空调或暖气），不用保湿产品，你的面部皮肤：
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>感觉很干或痛感 </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									感觉紧绷 
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									感觉正常
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									看起来有光亮，或从不觉得此时需要用保湿产品
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									不确定
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t5 hide ti">
+						<div class="ti_title">
+							1.5、照一下化妆镜，你的脸上能够看到多少针尖大小的毛孔：
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>一个都没有 </span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 T区（前额和鼻子）有一些 
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									比较多
+								</span>
+							</dd>
+						</dl>
+						<dl scores="10">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									非常多
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									不确定
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t6 hide ti">
+						<div class="ti_title">
+							1.6、如果让你描述自己的面部皮肤特征，你会选择：
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>干性 </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 中性
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									混合性
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									油性
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									不确定
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t7 hide ti">
+						<div class="ti_title">
+							1.7、夏天的时候，你的T区（前额、鼻子、鼻翼）容易出油吗？
+						</div>
+						<dl scores="0">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>基本上没有过</span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 有时会这样
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									经常会有
+								</span>
+							</dd>
+						</dl>
+						<dl scores="10">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									总是在出油 
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t8 hide ti">
+						<div class="ti_title">
+							1.8、你平时用泡沫型洁面产品（或香皂）洗脸后的感觉是：
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>干燥、或有刺痛的感觉 </span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 有些干燥但是没有刺痛感
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									没有异常
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									皮肤出油 
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									我没使用过皂类或泡沫型洁面产品 
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t9 hide ti">
+						<div class="ti_title">
+							1.9、在自己的照片上，你的皮肤会油光发亮吗？
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>从来不会 </span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 偶尔会有
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									经常这样
+								</span>
+							</dd>
+						</dl>
+						<dl scores="10">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									总是如此
+								</span>
+							</dd>
+						</dl>
+					</div>
+
+					<!--第二大题  12道-->
+					<div class="t10 hide ti">
+						<div class="ti_title">
+							2.1、你的脸上，会突如其来的发出一片片块状的红斑吗？
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>从来没有过 </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 偶尔有，出现过几次
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									几乎每月都会有1次
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									几乎每周都会这样
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="t11 hide ti">
+						<div class="ti_title">
+							2.2、你在使用护肤品、化妆品时，有没有出现过，脸部强烈的发痒、发红、刺痛等现象吗？
+						</div>
+						<dl scores="0">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>从来没有过</span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 偶尔有
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									经常的，很多次
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									总是这样
+								</span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									我不用化妆品，所以不确定
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t1 hide ti">
+						<div class="ti_title">
+							2.3、按你自己的评价，你脸颊部位的皮肤是否属于薄皮?
+						</div>
+						<dl scores="0">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>应该不算薄 </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 有点薄，但不严重
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									典型的薄皮
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									很薄，比较严重
+								</span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									这个我不确定
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t2 hide ti">
+						<div class="ti_title">
+							2.4、你的脸上或颈部，是否患过湿疹、局部皮炎或者红斑痤疮吗？
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有 </span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 听父母说我有过
+								</span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有过1-2次
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有过好几次，还挺严重的
+								</span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									不确定
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t3 hide ti">
+						<div class="ti_title">
+							2.5、你的鼻子、鼻翼、脸颊等部位，有多少肉眼可见的毛细血管（红色、蓝色都算）
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有 </span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 有少量（有1-3根）
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有一些（有4-6根）
+								</span>
+							</dd>
+						</dl>
+						<dl scores="10">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									很多（7处或以上）
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t4 hide ti">
+						<div class="ti_title">
+							2.6、你平时换上新洗的床上用品、内衣内裤时，你的皮肤有什么反应？
+						</div>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>我的皮肤没有反应 </span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 我会感觉有点干
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									我的皮肤会发痒
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									我的皮肤会发痒并起疹子
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t5 hide ti">
+						<div class="ti_title">
+							2.7、佩带金属首饰时，你的皮肤会发红吗？
+						</div>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有</span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 很少
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									经常
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									总是如此
+								</span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									我没有戴过金属首饰
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t6 hide ti">
+						<div class="ti_title">
+							2.8、当你紧张、生气或兴奋的时候，脸部会涨红、发烫的几率是
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有 </span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 偶尔
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									经常
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									总是如此
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t7 hide ti">
+						<div class="ti_title">
+							2.9、季节转换时（天气突热与突冷），你的脸会发红、发痒吗？
+						</div>
+						<dl scores="0">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>从来没有 </span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 有时
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									蛮多次的
+								</span>
+							</dd>
+						</dl>
+						<dl scores="10">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									近几年，每次转季都这样 
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t8 hide ti">
+						<div class="ti_title">
+							2.10、你的脸上会出现密集的小红疹吗？
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有 </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 很少
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									至少一个月出现一次
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									至少每周出现一次
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t9 hide ti">
+						<div class="ti_title">
+							2.11、吃辛辣、热烫的食物与饮品时，会导致你的脸涨红、发烫或发痒吗？
+						</div>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有 </span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 很少
+								</span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有时
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									经常会这样
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									总是如此
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t10 hide ti">
+						<div class="ti_title">
+							2.12、你的直系亲属中（爸妈、爷爷奶奶、外公外婆），有确定为敏感肌肤吗？
+						</div>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有 </span>
+							</dd>
+						</dl>
+						<dl scores="3">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 我不知道或没注意过
+								</span>
+							</dd>
+						</dl>
+						<dl scores="10">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有，这个我知道
+								</span>
+							</dd>
+						</dl>
+					</div>
+
+					<!--第三大题 5道-->
+					<div class="1t11 hide ti">
+						<div class="ti_title">
+							3.1、你的脸上是否会在长痘发炎后出现一些黑色或褐色的斑印（红印消褪后出现）？
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>从来不会  </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 有时会这样
+								</span>
+							</dd>
+						</dl>
+						<dl scores="5">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									经常会
+								</span>
+							</dd>
+						</dl>
+						<dl scores="8">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									总是这样的
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t12 hide ti">
+						<div class="ti_title">
+							3.2、你身体或四肢上的小伤口，其完全愈合后出现的棕褐色的斑印，一般要多久才消失？？
+						</div>
+						<dl scores="0">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>不会留下棕色的疤痕 </span>
+							</dd>
+						</dl>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 大约1-3周左右
+								</span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									大约1个月左右
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									6个月或以上
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t13 hide ti">
+						<div class="ti_title">
+							3.3、你是否长过黄褐斑（表现为褐色或灰色的斑块）？
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有 </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有过1-2次，现在没有了
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									是的，有过好几次
+								</span>
+							</dd>
+						</dl>
+						<dl scores="10">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 唉，经常出现黄褐斑
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="1t14 hide ti">
+						<div class="ti_title">
+							3.4、你认为和别人相比，是否会更容易晒黑吗？
+						</div>
+						<dl scores="0">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>不会 </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 有一点，但不明显
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									是的，很明显
+								</span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									这个，我确定不了
+								</span>
+							</dd>
+						</dl>
+					</div>
+					<div class="3t5 hide ti">
+						<div class="ti_title">
+							3.5、你的脸上，是否会长期的留有一些深色斑点？
+						</div>
+						<dl scores="2">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>没有 </span>
+							</dd>
+						</dl>
+						<dl scores="4">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									有少许，不超过3处
+								</span>
+							</dd>
+						</dl>
+						<dl scores="6">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									 有一些，但不超过10个
+								</span>
+							</dd>
+						</dl>
+						<dl scores="10">
+							<dt class="iconfont">&#xe605;</dt>
+							<dd>
+								<span>
+									蛮多的，没有仔细数过
+								</span>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="bottonBox">
+					<button type="button" class="leftB disabled" disabled="disabled">上一题</button>
+					<button type="button" class="seeRes hide" style="font-size: 12px;border-width: 1px;">确认提交</button>
+					<button type="button" class="rightB disabled" disabled="disabled">下一题</button>
+
+				</div>
+				<div class="testOver hide">
+					<!--恭喜-->
+					<div class="congratulation">
+						<p>恭喜您已完成本次肤质精测！</p>
+						<button type="button" class="congratulationButton">查看结果</button><button type="button" class="conResTestButton">再看看题</button>
+					</div>
+					<div class="allHui"></div>
+				</div>
+			</div>
+
+			<div class="testResult ">
+				<div class="resHeader">
+					<span>按照您的诚实作答，经过专业的运算评估后，判别您的肌肤类型为：</span>
+					<div class="allRes">
+						<h3>
+							<span class="t1res">待测</span>
+							<span class="t2res"></span>
+							<span class="t3res"></span>
+						</h3>
+					</div>
+				</div>
+				<div class="resContent">
+					<div class="resConContent">
+						<ul>
+							<!--大li为一行  小li为一列-->
+							<!--第一类商品-->
+							<li class="ouside ouside1">
+								<div class="resConTitle">
+									您的水油指数得分为<span class="oilGrade"></span>分, 处在“<span class="oilType1"></span>”的分值区域
+								</div>
+								<ul class="row">
+									<li class="col">
+										<div class="qujian">
+											14－33
+										</div>
+										<div class="zhi zhi1">
+											干性
+										</div>
+									</li>
+									<li class="col">
+										<div class="qujian">
+											34－45
+										</div>
+										<div class="zhi zhi2">
+											混合偏干
+										</div>
+									</li>
+									<li class="col">
+										<div class="qujian">
+											46－60
+										</div>
+										<div class="zhi zhi3">
+											混合偏油
+										</div>
+									</li>
+									<li class="col">
+										<div class="qujian">
+											61－74
+										</div>
+										<div class="zhi zhi4">
+											油性
+										</div>
+									</li>
+								</ul>
+							</li>
+							<!--第二类商品-->
+							<li class="ouside ouside2">
+								<div class="resConTitle">
+									您的敏感指数得分为<span class="oilGrade"></span>分, 处在“<span class="oilType1"></span>”的分值区域
+								</div>
+								<ul class="row">
+									<li class="col">
+										<div class="qujian">
+											22－36
+										</div>
+										<div class="zhi zhi1">
+											耐受性
+										</div>
+									</li>
+									<li class="col">
+										<div class="qujian">
+											37－60
+										</div>
+										<div class="zhi zhi2">
+											敏感倾向
+										</div>
+									</li>
+									<li class="col">
+										<div class="qujian">
+											61－100
+										</div>
+										<div class="zhi zhi3">
+											敏感
+										</div>
+									</li>
+								</ul>
+							</li>
+							<!--第三类商品-->
+							<li class="ouside ouside3">
+								<div class="resConTitle">
+									您的色素指数得分为<span class="oilGrade"></span>分, 处在“<span class="oilType1"></span>”的分值区域
+								</div>
+								<ul class="row">
+									<li class="col">
+										<div class="qujian">
+											6－20
+										</div>
+										<div class="zhi zhi1">
+											非色素性
+										</div>
+									</li>
+									<li class="col">
+										<div class="qujian">
+											21－40
+										</div>
+										<div class="zhi zhi2">
+											色素性
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="compositeScore">
+							<div class="loveSkin">
+								你的肤质综合评分: <strong class="loveSkinScore"></strong>
+							</div>
+							<div class="adjust">
+								评定您之肌肤自我调适力为 <strong class="adjustScore"></strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="skinImgBox">
+					<div class="skinImgBoxHeader">
+						<span class="summary">这是让人感到困惑的肤质。</span>在24类的肌肤类型中被分为第<span class="rank"></span>类。
+					</div>
+					<div class="skinImgBoxConter">
+						<img src="img/skin_type_1.png" class="skinImg_Png" />
+						<h4 class="allRes_H3Html">绑定.allRes h3 Html</h4> 调查表明有<span class="skinPercent">13.84%</span>的华人青年属于这一肌肤类型。
+					</div>
+					<div class="skinImgBoxFooter">
+						<div class="skinImgBoxFooterLeft">
+							<div class="iosIon">
+								&#xe607;
+							</div>
+							<div class="skinTExt">
+								混合偏干的大类包含6个肤质类型，它们在总24类中的排序分别为第1、3、8、11、17、19。
+							</div>
+						</div>
+						<div class="skinImgBoxFooterRight">
+							<div class="imgBoxTrue">
+								<div class="">
+									<img src="../skinTest8_8/img/skin_type_10.png" />
+								</div>
+								<div class="borderWhite">
+									<img src="../skinTest8_8/img/skin_type_10.png" />
+								</div>
+								<div class="">
+									<img class="" src="../skinTest8_8/img/skin_type_10.png" />
+								</div>
+								<div class="">
+									<img src="../skinTest8_8/img/skin_type_10.png" />
+								</div>
+								<div class="">
+									<img src="../skinTest8_8/img/skin_type_10.png" />
+								</div>
+								<div class="">
+									<img src="../skinTest8_8/img/skin_type_10.png" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="resPhone checkedBox">
+					<div class="resPhoneFooter">
+						<div class="submitPHone">
+							<div class="resPhoneFooterTop">
+								在总体上来看，第<span class="resPhoneFooterTopNum">11</span>类肤质的人群，容易遇到以下脸部肌肤问题。那么，您遇到其中哪些问题？（可多选）：
+							</div>
+							<div class="resPhoneFooterCenter">
+								<label><input name="Fruit" type="checkbox" value="" />易干燥 </label>
+								<label><input name="Fruit" type="checkbox" value="" />有痘痘 </label>
+								<label><input name="Fruit" type="checkbox" value="" />有红印 </label>
+							</div>
+						</div>
+						<div class="resPhoneFooterButtom">
+							<div class="Uncommit">
+								<div class="TJphonenum">
+									<input type="number" name="用户手机号" class="prosonPhoneNumber" placeholder="请在此处输入您的手机号码" />
+									<span class="Warning hide">&#xe606;</span>
+									<span class="Correct hide">&#xe604;</span>
+								</div>
+								<input type="button" class="postPhoneNumber" value="提交" />
+							</div>
+							<div class="Commit hide">
+								<p>感谢您的支持，稍后客服人员会联系您，为您做出最全面的解答！</p>
+								<a href="index.html" class="doAgain">重新做三维32类肤质精测</a>
+							</div>
+							<div class="closeDiv hide">
+								&#xe60b;
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+
+</html>

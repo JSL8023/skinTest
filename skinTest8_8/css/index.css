@@ -1,0 +1,628 @@
+@font-face {
+	font-family: 'iconfont';
+	src: url('//at.alicdn.com/t/font_1470361981_812661.eot');
+	/* IE9*/
+	src: url('//at.alicdn.com/t/font_1470361981_812661.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//at.alicdn.com/t/font_1470361981_812661.woff') format('woff'), /* chrome、firefox */
+	url('//at.alicdn.com/t/font_1470361981_812661.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('//at.alicdn.com/t/font_1470361981_812661.svg#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+}
+
+.header .iconfont {
+	font-family: "iconfont";
+	font-size: 1.6rem;
+	font-style: normal;
+}
+
+.show {
+	display: block !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+button,
+input {
+	-webkit-appearance: none;
+}
+
+
+/*home头部样式*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: auto;
+}
+
+body{
+	
+
+}
+
+
+ul {
+	list-style: none;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	line-height: 3rem;
+	text-align: center;
+	background: #3BDDC6;
+	color: white;
+	z-index: 20;
+}
+
+.header a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 3rem;
+	color: white;
+	text-decoration: none;
+}
+
+.header span {
+	font-size: 1.2rem;
+}
+
+
+/*homeContent样式*/
+
+.content {
+	-webkit-overflow-scrolling: touch;
+	position: absolute;
+	top: 3rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.content .top {
+	text-align: center;
+}
+
+.content_logo {
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+}
+
+.homePage {}
+
+
+/*两行绿色的文字*/
+
+.content h3 {
+	text-align: center;
+	color: #50E3C2;
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: 300;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.content h4 {
+	text-align: center;
+	color: #50E3C2;
+	font-size: 24px;
+	line-height: 15px;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+
+/*文本盒子*/
+
+.textBox {
+	font-size: 14px;
+	color: #666;
+	margin: 20px 38px 10px 38px;
+	font-weight: 300px;
+	line-height: 25px;
+	letter-spacing: 1.3px;
+}
+
+.textBox p {
+	padding: 7px 0px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+
+/*左右两个双引号*/
+
+.textBox .color-light-red {
+	color: #F77366;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+/*button按钮*/
+
+.content .footer {
+	text-align: center;
+}
+
+.content .footer button {
+	border-radius: 20px;
+	margin-top: 5px;
+	padding: 2px 38px;
+	font-size: 20px;
+	background-color: #3addc6;
+	color: white;
+	border: none;
+	display: inline-block;
+	min-width: 52px;
+	min-height: 47px;
+	text-overflow: ellipsis;
+	line-height: 42px;
+	cursor: pointer;
+	font-weight: 400;
+	-webkit-appearance: button;
+}
+
+
+/*测试答题页*/
+
+.testBagin .testBox {
+	padding: 15px 10px;
+	border: 1px solid #70dac7;
+	overflow: hidden;
+	margin: 20px 10px;
+	border-radius: 2px;
+	background-color: #fff;
+	position: relative;
+}
+
+.testBagin .bottonBox {
+	padding: 20px 10%;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.testBagin .bottonBox button {
+	border-color: #70dac7;
+	background-color: white;
+	color: #444;
+	min-width: 52px;
+	min-height: 47px;
+	border-style: solid;
+	font-size: 16px;
+	line-height: 42px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: inline-block;
+	overflow: hidden;
+	padding: 0 16px;
+	border-width: 1px 0 1px 1px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+/*左右button*/
+
+.leftB {
+	border-radius: 2px 0 0 2px;
+}
+
+.rightB {
+	border-right-width: 1px !important;
+	border-radius: 0 2px 2px 0;
+}
+
+.disabled {
+	opacity: .4;
+	cursor: default!important;
+	pointer-events: none;
+}
+
+
+/*每题标题样式*/
+
+.ti_title {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	color: #666;
+	font-size: 16px;
+	line-height: 26px;
+	/*min-height: 80px;*/   /*8.8下午修改*/
+	padding: 15px;
+	border: none;
+	background-color: #f5f5f5;
+	font-weight: 500;
+}
+
+
+/*答题选项*/
+
+.testBox .iconfont {
+	font-family: "iconfont";
+	/*font-size: 1.6rem;*/
+	font-style: normal;
+}
+
+.testBox dl {
+	position: relative;
+	font-size: 16px;
+	font-weight: 400;
+	background: #007AFF;
+	overflow: hidden;
+}
+
+.testBox dd {
+	padding: 8px 16px 8px 60px;
+	border: none;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.testBox dd span {
+	padding-bottom: 12px;
+	display: block;
+	border-bottom: 1px solid lightgray;
+}
+
+.testBox dd span b {
+	color: red;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.testBox dt {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	padding: 0;
+	left: 18px;
+	top: 19%;
+	visibility: visible;
+	color: #DD7D75;
+	font-size: 24px;
+}
+
+
+/*结果页面*/
+
+.resHeader {
+	background: url(../img/header_bg_female.png) no-repeat fixed top;
+	;
+	padding: 20px 33px;
+	color: white;
+	background-size: 100% auto;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	overflow: hidden;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+}
+
+.allRes {
+	margin-top: 6px;
+}
+
+.allRes h3 {
+	font-size: 20px;
+	color: #6CC;
+	text-align: center;
+	display: block;
+	background-color: white;
+	font-weight: 300;
+	margin: 20px 10px 0 10px;
+	padding: 0 10px;
+	border-radius: 10px;
+}
+
+.resContent {
+	margin-bottom: 15px;
+	overflow: hidden;
+	border-radius: 2px;
+	background-color: #fff;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+}
+
+.resConContent {
+	padding: 16px;
+	font-size: 16px;
+	border-style: none;
+	color: #666;
+	background-color: white;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+	position: relative;
+	z-index: 2;
+}
+
+.resConContent .ouside {
+	margin: 0 5px 24px 5px;
+}
+
+.resConTitle {
+	width: 100%;
+	color: #333;
+	font-size: 12px;
+	font-weight: 300;
+	background-color: white;
+	margin-left: -5px;
+	padding: 3px 0px;
+}
+
+.resConTitle:before {
+	content: ' ';
+	border: 1px solid #e18d87;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.resConTitle span {
+	color: red;
+}
+
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -moz-flex;
+	box-sizing: border-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 5px;
+	width: 100%;
+}
+
+.col {
+	padding-left: 1px;
+	height: 46px;
+	color: #666;
+	font-size: 14px;
+	line-height: 23px;
+	font-weight: 300;
+	letter-spacing: 1.3px;
+	text-align: center;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: block;
+	width: 100%;
+}
+
+.qujian {
+	background-color: #70dac7;
+	letter-spacing: 1.3px;
+	text-align: center;
+}
+
+.zhi {
+	background-color: #F5F5F5;
+	letter-spacing: 1.3px;
+	text-align: center;
+}
+
+.resPhone {
+	margin-bottom: 15px;
+	overflow: hidden;
+	border-radius: 2px;
+	background-color: #fff;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+	box-sizing: border-box;
+	/*min-height: 200px;*/
+}
+
+.resPhoneTop {
+	text-align: center;
+	color: white;
+	background-color: #70dac7;
+	font-size: 14px;
+	margin: 20px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	padding: 14px;
+}
+
+.resPhoneTop p {
+	text-align: left;
+}
+
+
+/*用户手机号text*/
+
+.prosonPhoneNumber {
+	flex: 2;
+	-ms-flex: 2;
+	-webkit-flex: 2;
+	height: 50px;
+	font-size: 1rem;
+	border-radius: 2px;
+	border: none;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+
+/*提交按钮*/
+
+.postPhoneNumber {
+	/*flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;*/
+	width: 42%;
+	height: 46px;
+	border-radius: 2px;
+	font-size: 26px;
+	border: none;
+	margin-top: 10px;
+	background: white;
+	font-weight: bold;
+	color: #666;
+}
+
+.TJphonenum {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+}
+
+
+/*.TJphonenum span {
+	padding: 10px;
+	color: red;
+	width: 20%;
+	font-size: 12px;
+}*/
+
+.TJphonenum span {
+	padding: 10px;
+	color: red;
+	/*flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;*/
+	text-align: left;
+	font-size: 28px;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+
+.TJphonenum span:nth-of-type(1) {
+	color: #666;
+}
+
+
+/*对号字体*/
+
+.Correct {
+	font-family: "iconfont";
+	font-size: 1.1rem;
+	    line-height: 50px;
+	font-style: normal;
+	line-height: 30px;
+	color: greenyellow !important;
+}
+
+.doAgain {
+	display: inline-block;
+	padding: 5px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #dd7d75;
+}
+
+.Warning {
+	font-family: "iconfont";
+	font-size: 1.1rem;
+	font-style: normal;
+	line-height: 30px;
+	color: red !important;
+}
+
+.testResult {
+	position: relative;
+}
+
+.fixed {
+	position: fixed;
+	top: 3rem;
+	width: 100%;
+	z-index: 99;
+	background: none;
+	box-shadow: none;
+}
+
+.testOver {
+/*	margin-top: 6rem;*/
+	overflow: hidden;
+	border-radius: 2px;
+	box-sizing: border-box;	
+	color: #fff;
+}
+.allHui{
+	/*background-color: #000;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .1;
+	z-index: 1;
+}
+
+.congratulation {
+	position: fixed;
+    left: 20px;
+    right: 20px;
+    top: 12rem;
+    z-index: 10;
+	text-align: center;
+	color: white;
+	background-color: #70dac7;
+	font-size: 14px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	padding: 14px;
+}
+
+.congratulation button {
+	width: 40%;
+	height: 30px;
+	border-radius: 2px;
+	border: none;
+	margin-top: 20px;
+    margin-bottom: 20px;
+	background: white;
+	font-weight: bold;
+	color: #666;
+}
+
+.congratulationButton{
+	margin-right: 10px;
+}
+
+.conResTestButton{
+	margin-left: 10px;
+}  
+
+
+
