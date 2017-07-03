@@ -1,0 +1,316 @@
+/*
+ * rem.css+reset.css rem是按照750UI图除50
+*/
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+.opacity {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999999;
+}
+
+html {
+	font-size: 50px
+}
+
+body {
+	font-size: 24px;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+
+@media screen and (min-width:320px) {
+	html {
+		font-size: 21.333333333333332px
+	}
+	body {
+		font-size: 12px
+	}
+}
+
+@media screen and (min-width:360px) {
+	html {
+		font-size: 24px
+	}
+	body {
+		font-size: 12px
+	}
+}
+
+@media screen and (min-width:375px) {
+	html {
+		font-size: 25px
+	}
+	body {
+		font-size: 12px
+	}
+}
+
+@media screen and (min-width:384px) {
+	html {
+		font-size: 25.6px
+	}
+	body {
+		font-size: 14px
+	}
+}
+
+@media screen and (min-width:400px) {
+	html {
+		font-size: 26.666666666666668px
+	}
+	body {
+		font-size: 14px
+	}
+}
+
+@media screen and (min-width:414px) {
+	html {
+		font-size: 27.6px
+	}
+	body {
+		font-size: 14px
+	}
+}
+
+@media screen and (min-width:424px) {
+	html {
+		font-size: 28.266666666666667px
+	}
+	body {
+		font-size: 14px
+	}
+}
+
+@media screen and (min-width:480px) {
+	html {
+		font-size: 32px
+	}
+	body {
+		font-size: 15.36px
+	}
+}
+
+@media screen and (min-width:540px) {
+	html {
+		font-size: 36px
+	}
+	body {
+		font-size: 17.28px
+	}
+}
+
+@media screen and (min-width:720px) {
+	html {
+		font-size: 48px
+	}
+	body {
+		font-size: 23.04px
+	}
+}
+
+@media screen and (min-width:750px) {
+	html {
+		font-size: 50px
+	}
+	body {
+		font-size: 24px
+	}
+}
+
+.iconfont {
+	font-family: "iconfont" !important
+}
+
+.hide {
+	display: none !important
+}
+
+.vhide {
+	visibility: hidden !important
+}
+
+.clear {
+	clear: both !important
+}
+
+.noborder {
+	border: none !important
+}
+
+*,
+body,
+ul,
+ol,
+li,
+dl,
+u,
+i,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-family: PingFangSC-Regular, sans-serif;
+}
+
+i {
+	font-style: normal
+}
+
+ul,
+ol {
+	list-style-type: none
+}
+
+*:focus {
+	outline: none
+}
+
+input {
+	font-size: 12px;
+	-webkit-appearance: none;
+	outline: none
+}
+
+a,
+u {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: none
+}
+
+a:link {
+	text-decoration: none
+}
+
+a:visited {
+	text-decoration: none
+}
+
+select,
+input,
+img,
+select {
+	vertical-align: middle
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+@font-face {
+	font-family: "iconfont";
+	src: url('../fonticonfont.eot');
+	/* IE9*/
+	src: url('../font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/iconfont.woff') format('woff'), /* chrome, firefox */
+	url('../font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	url('../font/iconfont.svg#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.hui {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000000;
+	opacity: .5;
+	display: none;
+	z-index: 10;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.clearfix:after,
+.clearfix:before {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+#supernatant{
+	
+	overflow: hidden;
+	padding: 6px 20px;
+	z-index: 100;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background:rgba(142,142,142,0.8);
+	
+	width: 100%;
+	height:57px;
+}
+#supernatant .supernatant-left{
+	float: left;
+	width: 60%;
+	height: 45px;
+	
+}
+#supernatant .supernatant-left img{
+	width: 45px;
+	height: 45px;
+	border-radius:10px ;
+	vertical-align: top;
+}
+#supernatant .supernatant-left p{
+	
+	margin-top:5px ;
+	width: 100px;
+	display: inline-block;
+	font-size:900 ;
+	color: #FFFFFF;
+}
+#supernatant .supernatant-right{
+	
+	float: right;
+	width:40%;
+	height: 45px;
+	
+}
+#on{
+	font-size:900 ;
+	color: #FFFFFF;
+	vertical-align: middle;
+	float: right;
+	width:90px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
